@@ -1,0 +1,101 @@
+@mixin text-main {
+    font-size: 14px;
+    line-height: 1.5;
+
+    @media(min-width: $lg) {
+        font-size: 16px;
+    }
+}
+
+@mixin text-12-14 {
+    font-size: 12px;
+    line-height: 1.5;
+
+    @media(min-width: $lg) {
+        font-size: 14px;
+    }
+}
+
+@mixin text-18 {
+    font-size: 18px;
+}
+
+@mixin text-16-18 {
+    font-size: 16px;
+    line-height: 1.4;
+
+    @media(min-width: $lg) {
+        font-size: 18px;
+    }
+}
+
+@mixin text-14-16-18 {
+    font-size: 14px;
+    line-height: 1.4;
+
+    @media(min-width: $lg) {
+        font-size: 16px;
+    }
+
+    @media(min-width: $xl) {
+        font-size: 18px;
+    }
+}
+
+@mixin text-20-24 {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 0 1.2em;
+
+    @media(min-width: $lg) {
+        font-size: 24px;
+        line-height: 30px;
+    }
+}
+
+@mixin text-18-24 {
+    font-size: 18px;
+    line-height: 30px;
+
+    @media(min-width: $lg) {
+        font-size: 24px;
+        line-height: 30px;
+    }
+}
+
+
+@mixin h1 {
+    font-size: 36px;
+    line-height: 110%;
+    margin: 0 0 1.2em;
+
+    @media(min-width: $lg) {
+        font-size: 40px;
+    }
+
+    @media(min-width: $xl) {
+        font-size: 54px;
+    }
+}
+
+@mixin h2 {
+    font-size: 32px;
+    line-height: 120%;
+    margin: 0 0 1.2em;
+
+    @media(min-width: $lg) {
+        font-size: 36px;
+        line-height: 120%;
+    }
+}
+
+@mixin h3 {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 0 1.2em;
+
+    @media(min-width: $xl) {
+        font-size: 24px;
+        line-height: 30px;
+    }
+}

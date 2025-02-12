@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://sbt.envelop.is/landings/sitemap.xml

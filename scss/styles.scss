@@ -1,0 +1,41 @@
+@import 'libs/_normalize';
+@import 'libs/_swiper-bundle.min';
+// шрифт и переменные
+@import '_fonts';
+@import '_vars';
+@import '_mixins';
+
+// Подключение сетки bootatsap 4 ---------------------------------
+
+// Перезапись переменных variables
+@import "bootstrap/_variables";
+
+// Подключили систему гридов bootatsap 4 (на flex-box)
+
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+@import "../node_modules/bootstrap/scss/_mixins";
+@import "../node_modules/bootstrap/scss/_grid";
+@import "../node_modules/bootstrap/scss/_utilities";
+
+
+
+// Common styles and sections ---------------------------------
+
+@import '_common';
+
+@import '_header';
+@import '_footer';
+
+@import '_form';
+//@import '_modal';
+
+// pages 
+@import 'pages/_home';
+//@import 'pages/_digest';
+//@import 'pages/_project';
+//@import 'pages/_tech';
+
+
+//tippy lib
+
