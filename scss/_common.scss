@@ -1,0 +1,35 @@
+.container {
+    max-width: 1180px;
+}
+
+
+.intro {
+    background-image: url("pics/bg.png");
+    background-color: gray;
+    text-align: center;
+}
+
+.intro h1 {
+    color: white;
+    font-family: 'BebasNeue';    
+}
+
+.intro p {
+    color: white;
+    font-family: 'OpenSans';   
+}
+
+
+.nav {
+    list-style: none;
+    gap: 10px;
+    display:flex;
+    font-family: 'OpenSans'; 
+}
+
+.story .container {
+    display: flex;
+}
+
+
+
