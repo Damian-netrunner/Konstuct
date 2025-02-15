@@ -1,5 +1,7 @@
-.container {
-    max-width: 940px;
+body {
+    font-family: 'Open sans';
+    color: #48555B;
+;
 }
 
 
@@ -9,6 +11,7 @@
     text-align: center;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 
 .intro .container {
@@ -51,8 +54,26 @@
 
 }
 
-.story .container {
+.intro__heading {
+    text-align: center;
+    position: relative;
+}
+
+.intro__heading::before {
+    content: '';
+    background: #33CCFF;
+    width: 50px;
+    height: 2px;
+    bottom: -7px;
+    position: absolute;
+    right: 445px;
+}
+
+
+
+.section-wrapper {
     display: flex;
+    margin-bottom: 120px;
 }
 
 .story .inner-wrapper:nth-child(1){
@@ -74,12 +95,107 @@
     display: flex;
     justify-content: space-between;
 
-   
 }
+
+
 
 
 .nav__item {
     padding: 12px;
 }
 
+
+.section-wrapper p {
+    color: #48555B;
+}
+
+.inner-wrapper p:nth-child(1) {
+    font-size: 20px;
+    line-height: 23.44px;
+    letter-spacing: 0.19px;
+}
+
+.inner-wrapper p:nth-child(2) {
+
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.19px;
+
+}
+
+.btn {
+
+    font-size: 13px;
+    line-height: 15.23px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    background-color:#00A4E5;
+    color: white;
+    padding: 11px 29px;
+    text-transform: uppercase;
+    text-wrap: nowrap;
+    height: 18px;
+    width: 150px;
+}
+
+.btn:hover {
+    background-color: #3ac0f5;
+} 
+
+.story__heading {
+    text-align: center;
+    
+    font-size: 18px;
+    line-height: 21.09px;
+    letter-spacing:t 2.31px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.header {
+    margin-bottom: 60px;
+}
+
+
+.story__heading::before {
+    content: '';
+    background: #33CCFF;
+    background-image: url("../pics/Line.svg");
+    bottom: -7px;
+    position: absolute;
+    right: 445px;
+}
+
+.nav__item {
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 14.06px;
+    letter-spacing: 1.09px;
+    text-align: center;
+
+}
+
+.nav__item:hover {
+    color: #00A4E5; 
+}
+
+
+.sec-capabilities__heading {
+    font-size: 18px;
+    line-height: 21.09px;
+    letter-spacing: 2.31px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.sec-capabilities .container {
+    display: flex;
+    align-items: baseline;
+}
+
+.sec-capabilities__phraze {
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+}
 
