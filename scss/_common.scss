@@ -1,22 +1,44 @@
 .container {
-    max-width: 1180px;
+    max-width: 940px;
 }
 
 
 .intro {
-    background-image: url("pics/bg.png");
+    background-image: url("../pics/bg.png");
     background-color: gray;
     text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.intro .container {
+    height: 768px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
 }
 
 .intro h1 {
     color: white;
-    font-family: 'BebasNeue';    
+    font-family: 'Bebas Neue';   
+    
+    font-size: 60px;
+    line-height: 70.31px;
+    letter-spacing: 5.71px;
+    text-align: center;
+
+}
+
+.text-color {
+    color: #00A4E5;
 }
 
 .intro p {
     color: white;
-    font-family: 'OpenSans';   
+    font-family: 'Open Sans';   
 }
 
 
@@ -24,7 +46,7 @@
     list-style: none;
     gap: 10px;
     display:flex;
-    font-family: 'OpenSans'; 
+    font-family: 'Open Sans'; 
     color: #48555B;
 
 }
@@ -44,8 +66,20 @@
     gap:20px;
 }
 
+.header {
+    border: #E6E6E6 1px solid;
+}
+
 .header .container {
     display: flex;
+    justify-content: space-between;
+
+   
+}
+
+
+.nav__item {
+    padding: 12px;
 }
 
 
