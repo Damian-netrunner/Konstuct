@@ -188,14 +188,31 @@ body {
     margin-bottom: 60px;
 }
 
-.sec-capabilities .container {
+.sec-capabilities .wrapper:nth-child(1) {
     display: flex;
     align-items: baseline;
 }
+
+.sec-capabilities .wrapper:nth-child(2) {
+    display: flex;
+}
+
+
 
 .sec-capabilities__phraze {
     font-size: 11px;
     line-height: 19px;
     letter-spacing: 0.2px;
+}
+
+.build .container {
+    height: 500px;
+    background-image: url ("../pic/bg.jpg");
+}
+
+.story__pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
