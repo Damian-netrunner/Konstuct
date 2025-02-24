@@ -35,7 +35,18 @@ block main
                         p Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.        
         section.build 
             div.container
-                div.wrapper
-                    h2 Want to build something amazing?
-                    a.btn(href="#")
+                
+                    h2.build__heading Want to build something amazing?
+                    a.btn.build__btn(.href="#") GET IN TOUCH        
+        section.newsletter 
+            div.container
+                h3 Newsletter Signup
+                div 
+                    form(action="")
+                        div  
+                            label(for="email" placeholder='Email')
+                            input(type="text" id='email' placeholder='email')
+                        a.btn.newsletter__btn(href="#") SIGN UP
+                        
+                
 
