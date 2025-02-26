@@ -302,6 +302,12 @@ body {
 
 .newsletter__input {
     width: 250px;
+    border: 0;
+    border-radius: 0;
+}
+
+.newsletter__input:focus {
+    border: 0;
 }
 
 .newsletter__btn {
@@ -345,3 +351,4 @@ body {
 .s-footer ul {
     list-style: none;
 }
+
