@@ -276,6 +276,10 @@ body {
     text-align: center;
 }
 
+.newsletter {
+    margin-top: -1px;
+}
+
 .newsletter, .s-footer {
     background: #171819;
     color:white;
@@ -285,6 +289,59 @@ body {
     text-decoration: none;
 }
 
-.newsletter__heading {
+.newsletter__form .wrapper {
+    display: flex;
+}
 
+.newsletter .container {
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.newsletter__input {
+    width: 250px;
+}
+
+.newsletter__btn {
+    width: 150px;
+
+}
+
+.newsletter__heading {
+    margin-right: 70px;
+}
+
+
+
+.s-footer .container {
+    display: flex
+} 
+
+.block--first  {
+    flex: 2 1;
+}
+
+.block--second {
+    flex: 2 1;
+    display: flex;
+}
+
+.block--third {
+    flex: 1 1;
+}
+
+
+.block--fourth {
+    flex: 1 1;
+}
+
+.block--fourth ul {
+    display: flex;
+}
+
+
+.s-footer ul {
+    list-style: none;
 }

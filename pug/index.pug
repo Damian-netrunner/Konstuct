@@ -36,17 +36,16 @@ block main
         section.build 
             div.container
                 
-                    h2.build__heading Want to build something amazing?
+                    h2.build__heading Want to build<br> something amazing?
                     a.btn.build__btn(.href="#") GET IN TOUCH        
         section.newsletter 
             div.container
-                h3 Newsletter Signup
+                h3.newsletter__heading Newsletter Signup
                 div 
-                    form(action="")
-                        div  
-                            label(for="email" placeholder='Email')
-                            input(type="text" id='email' placeholder='email')
-                        a.btn.newsletter__btn(href="#") SIGN UP
+                    form.newsletter__form(action="")
+                        div.wrapper  
+                            input.newsletter__input(type="text" placeholder='email')
+                            a.btn.newsletter__btn(href="#") SIGN UP
                         
                 
 
