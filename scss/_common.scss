@@ -81,7 +81,8 @@ body {
 }
 
 .story .inner-wrapper:nth-child(1){
-    display: flex;
+    display: grid;
+   
     flex-direction: column;
     width: 50%;
 }
@@ -155,6 +156,12 @@ body {
     letter-spacing:t 2.31px;
     text-transform: uppercase;
     margin-bottom: 60px;
+    background: linear-gradient(179deg, #00a4e5, #00a4e5);
+    background-size: 50% 2px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    display: inline-block;
+    padding-bottom: 5px;
 }
 
 .header {
@@ -162,14 +169,6 @@ body {
 }
 
 
-.story__heading::before {
-    content: '';
-    background: #33CCFF;
-    background-image: url("../pics/Line.svg");
-    bottom: -7px;
-    position: absolute;
-    right: 445px;
-}
 
 .nav__item {
     text-transform: uppercase;
@@ -195,8 +194,29 @@ body {
     line-height: 21.09px;
     letter-spacing: 2.31px;
     text-transform: uppercase;
+    position: relative;
+    text-wrap-mode: nowrap;
+    /* margin: 0; */
+    margin-block: 0;
+    margin-bottom: 20px;
    
 }
+
+.sec-capabilities__heading::before {
+    content: "";
+    height: 2px;
+    width: 40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    /* margin-inline: auto; */
+    background: #10b9b9;
+    /* bottom: -5px; */
+    top: calc(100% + 5px);
+}
+
+
+
 
 .sec-capabilities .wrapper:nth-child(1) {
     display: flex;
@@ -214,6 +234,10 @@ body {
     font-size: 11px;
     line-height: 19px;
     letter-spacing: 0.2px;
+    max-width: 405px;
+    margin-left: auto;
+    align-self: self-end;
+    margin-block: 0;
 }
 
 .build .container {
