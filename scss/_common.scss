@@ -1,7 +1,14 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
 body {
     font-family: 'Open sans';
     color: #48555B;
-;
 }
 
 @media (min-width: 1100px) {
@@ -370,7 +377,7 @@ body {
 
 @media (max-width: 950px) {
     .intro h1 {
-        width: 394px;
+        max-width: 394px;
         text-align: center;
         text-wrap: wrap;
         
@@ -501,7 +508,7 @@ body {
 }
 
 @media (max-width: 767px) { 
-    .nav {
+    .nav-wrapper {
         display: none;
         position: fixed;
         width: 100%;
@@ -521,7 +528,7 @@ body {
     display: block;
 }
 
-.open {
+body.open {
     span {
         &:nth-child(1) {
             top: 16px;
@@ -540,3 +547,4 @@ body {
         display: block;
     }
 }
+
