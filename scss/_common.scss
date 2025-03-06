@@ -96,9 +96,9 @@ body {
 }
 
 .story .inner-wrapper:nth-child(2) {
-    display: flex;
-    flex-direction: row;
+    display: grid;
     gap:20px;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .header {
@@ -284,6 +284,7 @@ body {
 
 .newsletter {
     margin-top: -1px;
+    padding-bottom: 35px;
 }
 
 .newsletter, .s-footer {
@@ -320,6 +321,12 @@ body {
 .newsletter__btn {
     width: 100px;
 
+}
+
+@media  (max-width:567px) {
+    .newsletter__btn {
+        width: 100%;
+    }
 }
 
 .newsletter__heading {
@@ -431,13 +438,16 @@ body {
         flex-direction: column;
         margin-top: -2px;
         margin-bottom: -2px;
-        padding-bottom: 30px;     
+        padding-bottom: 30px;  
+        height: 100%;   
     }
     .newsletter__heading {
         margin: 10 0px;
         margin-right: 0;
     }
 }
+
+
 
 
 @media (max-width: 789px) {
