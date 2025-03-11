@@ -51,11 +51,11 @@
           <div class="container">   <img src="pics/logo.svg">
             <div class="nav-wrapper">
               <ul class="nav">
-                <li class="nav__item">home<a class="nav__link" href="#"> </a></li>
-                <li class="nav__item">about<a class="nav__link" href="#"> </a></li>
-                <li class="nav__item">services<a class="nav__link" href="#"> </a></li>
-                <li class="nav__item">work<a class="nav__link" href="#"> </a></li>
-                <li class="nav__item">contact<a class="nav__link" href="#"></a></li>
+                <li class="nav__item"> <a class="nav__link" href="#">home </a></li>
+                <li class="nav__item"> <a class="nav__link" href="#">about</a></li>
+                <li class="nav__item"> <a class="nav__link" href="#">services</a></li>
+                <li class="nav__item"> <a class="nav__link" href="#">work</a></li>
+                <li class="nav__item"> <a class="nav__link" href="#">contact</a></li>
               </ul>
               <!--div.header__menu-toggle
               span
@@ -76,7 +76,7 @@
                 <p class="phraze">Founded in 2011 by John Mathew Smith, <span class=text-color>Konstruct</span> has become the number one construction management firm</p>
                 <p class="phraze">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
               </div>
-              <div class="inner-wrapper"><img class="story__pic" src="pics/plan.jpg" alt=""><img class="story__pic" src="pics/manage.jpg" alt=""><img class="story__pic" src="pics/deliver.jpg" alt=""></div>
+              <div class="inner-wrapper"><img class="story__pic" src="pics/plan.jpg" alt="" width="140"><img class="story__pic" src="pics/manage.jpg" alt="" width="140"><img class="story__pic" src="pics/deliver.jpg" alt="" width="140"></div>
             </div>
           </div>
         </section>
@@ -87,17 +87,23 @@
               <p class="sec-capabilities__phraze"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p><a class="btn">All services</a>
             </div>
             <div class="wrapper">
-              <div class="card"><img class="card__pic" src="pics/Bitmap.svg" alt="">
-                <h3>PROJECT AND CONSTRUCTION MANAGEMENT</h3>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+              <div class="card">
+                <div class="card__wrapper"><img class="card__pic" src="pics/Bitmap.svg" alt="">
+                  <h3>PROJECT AND CONSTRUCTION MANAGEMENT</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                </div>
               </div>
-              <div class="card"><img class="card__pic" src="pics/Bitmap-2.svg" alt="">
-                <h3>PROJECT AND CONSTRUCTION MANAGEMENT</h3>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+              <div class="card">
+                <div class="card__wrapper"><img class="card__pic" src="pics/Bitmap-2.svg" alt="">
+                  <h3>PROJECT AND CONSTRUCTION MANAGEMENT</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                </div>
               </div>
-              <div class="card"><img class="card__pic" src="pics/Bitmap-3.svg" alt="">
-                <h3>PROJECT AND CONSTRUCTION MANAGEMENT</h3>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.        </p>
+              <div class="card">
+                <div class="card__wrapper"><img class="card__pic" src="pics/Bitmap-3.svg" alt="">
+                  <h3>PROJECT AND CONSTRUCTION MANAGEMENT</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.        </p>
+                </div>
               </div>
             </div>
           </div>
@@ -127,23 +133,28 @@
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. </p>
           </div>
           <div class="inner-wraper block--second">
-            <ul class="s-footer__list">   
-              <li class="s-footer__item">HOME<a href="#"> </a></li>
-              <li class="s-footer__item">ABOUT<a href="#"></a></li>
-              <li class="s-footer__item">SERVICES<a href="#"></a></li>
-              <li class="s-footer__item">PROJECTS<a href="#"></a></li>
-              <li class="s-footer__item">CONTACT US<a href="#"></a></li>
-            </ul>
-            <ul class="s-footer__list">      
-              <li class="s-footer__item">FAQ<a href="#"></a></li>
-              <li class="s-footer__item">TERMS<a href="#"></a></li>
-              <li class="s-footer__item">CAREERS<a href="#"></a></li>
-            </ul>
-            <ul class="s-footer__list">    
-              <li class="s-footer__item">BLOG<a href="#"></a></li>
-              <li class="s-footer__item">PARTNERS<a href="#"></a></li>
-              <li class="s-footer__item">NEWS<a href="#"> </a></li>
-            </ul>
+            <div class="block--second__wrapper"> 
+              <p>Links</p>
+            </div>
+            <div class="block--second__wrapper"> 
+              <ul class="s-footer__list">   
+                <li class="s-footer__item"> <a class="s-footer__link" href="#">HOME</a></li>
+                <li class="s-footer__item"> <a class="s-footer__link" href="#">ABOUT</a></li>
+                <li class="s-footer__item"> <a class="s-footer__link" href="#">SERVICES</a></li>
+                <li class="s-footer__item"> <a class="s-footer__link" href="#">PROJECTS</a></li>
+                <li class="s-footer__item"> <a class="s-footer__link" href="#">CONTACT US</a></li>
+              </ul>
+              <ul class="s-footer__list">      
+                <li class="s-footer__item"> <a class="s-footer__link" href="#">FAQ</a></li>
+                <li class="s-footer__item"> <a class="s-footer__link" href="#">TERMS</a></li>
+                <li class="s-footer__item"> <a class="s-footer__link" href="#">CAREERS</a></li>
+              </ul>
+              <ul class="s-footer__list">    
+                <li class="s-footer__item"> <a class="s-footer__link" href="#">BLOG</a></li>
+                <li class="s-footer__item"> <a class="s-footer__link" href="#">PARTNERS</a></li>
+                <li class="s-footer__item"> <a class="s-footer__link" href="#">NEWS </a></li>
+              </ul>
+            </div>
           </div>
           <div class="inner-wraper block--third"> 
             <p>CONTACT US</p>
@@ -153,11 +164,14 @@
           </div>
           <div class="inner-wraper block--fourth">   
             <ul class="socials">
-              <li class="socials__item"><img src="pics/fb.svg" alt=""></li>
-              <li class="socials__item"><img src="pics/twitter.svg" alt=""></li>
-              <li class="socials__item"> <img src="pics/google.svg" alt=""></li>
+              <li class="socials__item"><a class="socials__link" href="#"><img src="pics/fb.svg" alt=""></a></li>
+              <li class="socials__item"><a class="socials__link" href="#"><img src="pics/twitter.svg" alt=""></a></li>
+              <li class="socials__item"><a class="socials__link" href="#"> <img src="pics/google.svg" alt=""></a></li>
             </ul>
           </div>
+        </div>
+        <div class="container footer-end">
+          <p>© 2017 Konstruct Inc. Designed by Jane Kathryn Teo</p>
         </div>
       </footer>
     </div>
