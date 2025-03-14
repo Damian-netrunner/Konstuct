@@ -58,7 +58,7 @@ body {
 
 .nav {
     list-style: none;
-    gap: 10px;
+    gap: 30px;
     display:flex;
     font-family: 'Open Sans'; 
     color: #48555B;
@@ -115,7 +115,7 @@ body {
 
 
 .nav__item {
-    padding: 12px;
+    padding: 12px 0;
 }
 
 
@@ -311,7 +311,7 @@ body {
 }
 
 .newsletter, .s-footer {
-    background: #141A20;
+    background: #171819;;
     color:white;
 }
 
@@ -592,7 +592,6 @@ body.open {
     line-height: 23px;
     letter-spacing: 0.19px;
     vertical-align: middle;
-
 }
 
 .card p {
@@ -643,3 +642,22 @@ body.open {
 
 }
 
+.card__wrapper h3 {
+    font-size: 16px;
+}
+
+.footer-background {
+    background-color: #141a20;
+}
+
+.footer-background .container {
+    padding-top: 20px;
+}
+
+.footer-end h3 {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 100%;
+    letter-spacing: 0.85px;
+    text-align: center;
+}
