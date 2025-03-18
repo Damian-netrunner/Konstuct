@@ -196,10 +196,14 @@ body {
     background-repeat: no-repeat;
     background-position: left bottom;
     display: inline-block;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
-
+.story .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 .header {
@@ -259,7 +263,7 @@ body {
     /* margin-inline: auto; */
     background: #00a4e5;;
     /* bottom: -5px; */
-    top: calc(100% + 5px);
+    top: calc(100% + 10px);
 }
 
 
@@ -715,4 +719,8 @@ body.open {
     line-height: 100%;
     letter-spacing: 0.85px;
     padding: 22px 0;
+}
+
+.s-footer p {
+    max-width: 80%;
 }
