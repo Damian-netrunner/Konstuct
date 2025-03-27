@@ -149,12 +149,10 @@ body {
 }
 
 .inner-wrapper p:nth-child(2) {
-
     font-size: 13px;
     line-height: 23px;
     letter-spacing: 0.19px;
-    max-width: 405px;
-
+    
 }
 
 .intro .inner-wrapper:nth-child(3) p {
@@ -168,7 +166,6 @@ body {
 
 
 .btn {
-
     font-size: 13px;
     line-height: 15.23px;
     letter-spacing: 0.5px;
@@ -198,6 +195,10 @@ body {
     background-position: bottom;
     display: inline-block;
     padding-bottom: 10px;
+}
+
+.story__heading .phraze {
+    max-width: 405px;
 }
 
 .story .container {
